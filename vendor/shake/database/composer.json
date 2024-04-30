@@ -1,0 +1,23 @@
+{
+	"name": "shake/database",
+	"type": "library",
+	"description": "Enhanced Nette/Database with lightweight ORM features.",
+	"keywords": ["nette", "shake", "database", "ORM", "php"],
+	"homepage": "https://bitbucket.org/nanuqcz/shake-shake/wiki",
+	"authors": [
+		{
+			"name": "Michal Mikoláš",
+			"homepage": "http://www.michalm.cz"
+		}
+	],
+	"autoload": {
+		"classmap": [""]
+	},
+	"require": {
+		"php": ">=7.1.0",
+		"nette/nette": "3.0.*",
+		"nette/database": "3.0.*",
+
+		"shake/utils": "3.0.*"
+	}
+}
